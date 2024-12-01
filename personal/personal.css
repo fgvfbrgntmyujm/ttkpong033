@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .personal-container {
+    max-width: 500px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .personal-card {
+    text-align: center;
+  }
+  
+  .personal-card img.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #4a90e2;
+  }
+  
+  .personal-card h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #4a90e2;
+  }
+  
+  .personal-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

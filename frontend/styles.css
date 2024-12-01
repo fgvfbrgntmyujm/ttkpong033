@@ -1,0 +1,119 @@
+/* General Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #87ceeb, #ffffff);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 14px;
+}
+
+/* Game Container */
+#game-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border: 2px solid #4caf50;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Score Display */
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Ball */
+#ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Game Over */
+#game-over {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4500;
+    text-align: center;
+}
+
+/* Score History */
+#history {
+    margin-top: 20px;
+    width: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+#history h3 {
+    text-align: center;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+#history div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#ball.small {
+    width: 50px;
+    height: 50px;
+}
+#ball.medium {
+    width: 70px;
+    height: 70px;
+}
+#ball.large {
+    width: 100px;
+    height: 100px;
+}
